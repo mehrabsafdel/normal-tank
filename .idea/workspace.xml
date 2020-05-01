@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d527346-57da-4444-88fc-a6355ee3b101" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Attacker.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Attacker.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/AudioStream.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Bug.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Bullet.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Bullet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/CanonFood.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/CanonFood.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/ClientManager.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/ClientManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/EnemyTanks.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/EnemyTanks.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Floor.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Floor.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameFrame.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameFrame.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameLoop.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameLoop.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameObject.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameObject.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState$KeyHandler.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState$KeyHandler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState$MouseHandler.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState$MouseHandler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/GameState.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Location.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Location.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Map.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Map.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Mine.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Mine.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Network.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Network.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/OwnTank.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/OwnTank.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Plant.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Plant.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/RedButtun.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/RedButtun.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/RepairFood.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/RepairFood.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/ServerManager.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/ServerManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Shield.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Shield.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/SoftWall.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/SoftWall.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Startup.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Startup.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Teazel.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Teazel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Turret.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Turret.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Upgrade.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Upgrader.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Upgrader.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Normal-Tanks/Wall.class" afterPath="$PROJECT_DIR$/out/production/Normal-Tanks/Wall.class" />
+      <change beforePath="$PROJECT_DIR$/src/Attacker.java" afterPath="$PROJECT_DIR$/src/Attacker.java" />
+      <change beforePath="$PROJECT_DIR$/src/AudioStream.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Bug.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Bullet.java" afterPath="$PROJECT_DIR$/src/Bullet.java" />
+      <change beforePath="$PROJECT_DIR$/src/CanonFood.java" afterPath="$PROJECT_DIR$/src/CanonFood.java" />
+      <change beforePath="$PROJECT_DIR$/src/ClientManager.java" afterPath="$PROJECT_DIR$/src/ClientManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/EnemyTanks.java" afterPath="$PROJECT_DIR$/src/EnemyTanks.java" />
+      <change beforePath="$PROJECT_DIR$/src/Floor.java" afterPath="$PROJECT_DIR$/src/Floor.java" />
+      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" afterPath="$PROJECT_DIR$/src/GameFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/GameLoop.java" afterPath="$PROJECT_DIR$/src/GameLoop.java" />
+      <change beforePath="$PROJECT_DIR$/src/GameObject.java" afterPath="$PROJECT_DIR$/src/GameObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/GameState.java" afterPath="$PROJECT_DIR$/src/GameState.java" />
+      <change beforePath="$PROJECT_DIR$/src/Location.java" afterPath="$PROJECT_DIR$/src/Location.java" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" afterPath="$PROJECT_DIR$/src/Map.java" />
+      <change beforePath="$PROJECT_DIR$/src/Mine.java" afterPath="$PROJECT_DIR$/src/Mine.java" />
+      <change beforePath="$PROJECT_DIR$/src/Network.java" afterPath="$PROJECT_DIR$/src/Network.java" />
+      <change beforePath="$PROJECT_DIR$/src/OwnTank.java" afterPath="$PROJECT_DIR$/src/OwnTank.java" />
+      <change beforePath="$PROJECT_DIR$/src/Plant.java" afterPath="$PROJECT_DIR$/src/Plant.java" />
+      <change beforePath="$PROJECT_DIR$/src/RedButtun.java" afterPath="$PROJECT_DIR$/src/RedButtun.java" />
+      <change beforePath="$PROJECT_DIR$/src/RepairFood.java" afterPath="$PROJECT_DIR$/src/RepairFood.java" />
+      <change beforePath="$PROJECT_DIR$/src/ServerManager.java" afterPath="$PROJECT_DIR$/src/ServerManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/Shield.java" afterPath="$PROJECT_DIR$/src/Shield.java" />
+      <change beforePath="$PROJECT_DIR$/src/SoftWall.java" afterPath="$PROJECT_DIR$/src/SoftWall.java" />
+      <change beforePath="$PROJECT_DIR$/src/Sound.java" afterPath="$PROJECT_DIR$/src/Sound.java" />
+      <change beforePath="$PROJECT_DIR$/src/Startup.java" afterPath="$PROJECT_DIR$/src/Startup.java" />
+      <change beforePath="$PROJECT_DIR$/src/Teazel.java" afterPath="$PROJECT_DIR$/src/Teazel.java" />
+      <change beforePath="$PROJECT_DIR$/src/Turret.java" afterPath="$PROJECT_DIR$/src/Turret.java" />
+      <change beforePath="$PROJECT_DIR$/src/Upgrade.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Upgrader.java" afterPath="$PROJECT_DIR$/src/Upgrader.java" />
+      <change beforePath="$PROJECT_DIR$/src/Wall.java" afterPath="$PROJECT_DIR$/src/Wall.java" />
+      <change beforePath="$PROJECT_DIR$/src/mashinFood.java" afterPath="$PROJECT_DIR$/src/mashinFood.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Plant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Plant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedButtun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RedButtun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepairFood.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RepairFood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shield.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Shield.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="79" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftWall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SoftWall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1049">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Wall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Upgrader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Upgrader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Turret.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Turret.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sound.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3044">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>5</find>
+      <find>System</find>
+      <find>&quot;mamadali&quot;</find>
+      <find>System.</find>
+      <find>owntank</find>
+      <find>red</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa11500.44609/Map.java" />
+        <option value="$PROJECT_DIR$/src/NormalWall.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa5052.22446/EnemyTanks.java" />
+        <option value="$PROJECT_DIR$/src/AudioStream.java" />
+        <option value="$PROJECT_DIR$/src/Upgrade.java" />
+        <option value="$PROJECT_DIR$/src/MachineFood.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa6456.32270/Server.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/GameLoop.java" />
+        <option value="$PROJECT_DIR$/src/Map.java" />
+        <option value="$PROJECT_DIR$/src/Attacker.java" />
+        <option value="$PROJECT_DIR$/src/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/CanonFood.java" />
+        <option value="$PROJECT_DIR$/src/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/EnemyTanks.java" />
+        <option value="$PROJECT_DIR$/src/Floor.java" />
+        <option value="$PROJECT_DIR$/src/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/Location.java" />
+        <option value="$PROJECT_DIR$/src/Mine.java" />
+        <option value="$PROJECT_DIR$/src/Network.java" />
+        <option value="$PROJECT_DIR$/src/OwnTank.java" />
+        <option value="$PROJECT_DIR$/src/Plant.java" />
+        <option value="$PROJECT_DIR$/src/RedButtun.java" />
+        <option value="$PROJECT_DIR$/src/RepairFood.java" />
+        <option value="$PROJECT_DIR$/src/ServerManager.java" />
+        <option value="$PROJECT_DIR$/src/SoftWall.java" />
+        <option value="$PROJECT_DIR$/src/Teazel.java" />
+        <option value="$PROJECT_DIR$/src/Turret.java" />
+        <option value="$PROJECT_DIR$/src/Upgrader.java" />
+        <option value="$PROJECT_DIR$/src/Wall.java" />
+        <option value="$PROJECT_DIR$/src/GameState.java" />
+        <option value="$PROJECT_DIR$/src/GameFrame.java" />
+        <option value="$PROJECT_DIR$/src/Startup.java" />
+        <option value="$PROJECT_DIR$/src/Sound.java" />
+        <option value="$PROJECT_DIR$/src/mashinFood.java" />
+        <option value="$PROJECT_DIR$/src/Shield.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="79" />
+    <option name="y" value="34" />
+    <option name="width" value="1036" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Normal-Tanks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Normal-Tanks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Normal-Tanks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Normal-Tanks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ClientManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ClientManager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Normal-Tanks" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Normal-Tanks" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="ServerManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ServerManager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Normal-Tanks" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ServerManager" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClientManager" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientManager" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d527346-57da-4444-88fc-a6355ee3b101" name="Default" comment="" />
+      <created>1531124324505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531124324505</updated>
+      <workItem from="1531124328127" duration="131977000" />
+      <workItem from="1531512809186" duration="69287000" />
+    </task>
+    <task id="LOCAL-00001" summary="bullet added">
+      <created>1531155436921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531155436921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second bulet for own tank added and draw the enemy's tank">
+      <created>1531166148621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531166148621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="now you can fire some bullet and the own tank and the enemies tank were added to the state class">
+      <created>1531180846828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531180846828</updated>
+    </task>
+    <task id="LOCAL-00004" summary="enemis tank were drawn and they can move to your place and can attack you">
+      <created>1531260114376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531260114376</updated>
+    </task>
+    <task id="LOCAL-00005" summary="enemis tank were drawn and they can move to your place and can attack you">
+      <created>1531260164824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531260164824</updated>
+    </task>
+    <task id="LOCAL-00006" summary="enemis tank were drawn and they can move to your place and can attack you">
+      <created>1531260174702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531260174702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="201264000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034254145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26187846" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26187846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bullet added" />
+    <MESSAGE value="second bulet for own tank added and draw the enemy's tank" />
+    <MESSAGE value="now you can fire some bullet and the own tank and the enemies tank were added to the state class" />
+    <MESSAGE value="enemis tank were drawn and they can move to your place and can attack you" />
+    <option name="LAST_COMMIT_MESSAGE" value="enemis tank were drawn and they can move to your place and can attack you" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12372.28532/Map.java" />
+    <entry file="file://$PROJECT_DIR$/src/NormalWall.java" />
+    <entry file="file://$PROJECT_DIR$/src/WallTank.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5052.22446/EnemyTanks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10664.48713/GameLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4148.2017/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="139" column="26" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4148.18853/OwnTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../OwnTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa13276.49938/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1856.9248/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="237" column="4" lean-forward="true" selection-start-line="237" selection-start-column="4" selection-end-line="278" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1856.27277/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1856.26508/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1856.20873/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="46" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MachineFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6456.30745/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6456.32270/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#2716#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AudioStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="221" column="34" lean-forward="false" selection-start-line="221" selection-start-column="34" selection-end-line="221" selection-end-column="34" />
+          <folding>
+            <element signature="method#Map#0;class#Map#0" expanded="false" />
+            <element signature="method#nextChapter#0;class#Map#0" expanded="false" />
+            <element signature="method#drawMap#0;class#Map#0" expanded="false" />
+            <element signature="method#drawPlantMap#0;class#Map#0" expanded="false" />
+            <element signature="e#13143#13144#0" expanded="false" />
+            <element signature="e#13169#13170#0" expanded="false" />
+            <element signature="e#13248#13249#0" expanded="false" />
+            <element signature="e#13274#13275#0" expanded="false" />
+            <element signature="e#13350#13351#0" expanded="false" />
+            <element signature="e#13374#13375#0" expanded="false" />
+            <element signature="e#13450#13451#0" expanded="false" />
+            <element signature="e#13474#13475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2519">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teazel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Upgrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="299" column="40" lean-forward="false" selection-start-line="299" selection-start-column="40" selection-end-line="299" selection-end-column="40" />
+          <folding>
+            <element signature="method#initBufferStrategy#0;class#GameFrame#0" expanded="false" />
+            <element signature="method#render#0;class#GameFrame#0" expanded="false" />
+            <element signature="method#drawOwnTank#0;class#GameFrame#0" expanded="false" />
+            <element signature="method#drawDetails#0;class#GameFrame#0" expanded="false" />
+            <element signature="method#drawHealth#0;class#GameFrame#0" expanded="false" />
+            <marker date="1531620991453" expanded="false" signature="10342:10359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="220" column="39" lean-forward="false" selection-start-line="220" selection-start-column="39" selection-end-line="226" selection-end-column="46" />
+          <folding>
+            <element signature="e#8239#8240#0" expanded="true" />
+            <element signature="e#8286#8287#0" expanded="true" />
+            <element signature="e#8325#8326#0" expanded="true" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#9219#9220#0" expanded="true" />
+            <element signature="e#9252#9253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="464" column="29" lean-forward="true" selection-start-line="464" selection-start-column="29" selection-end-line="464" selection-end-column="29" />
+          <folding>
+            <element signature="method#GameState#0;class#GameState#0" expanded="false" />
+            <element signature="e#18675#18676#0" expanded="true" />
+            <element signature="e#18766#18767#0" expanded="true" />
+            <element signature="e#18809#18810#0" expanded="true" />
+            <element signature="e#18842#18843#0" expanded="true" />
+            <element signature="e#18889#18890#0" expanded="true" />
+            <element signature="e#18924#18925#0" expanded="true" />
+            <element signature="e#18983#18984#0" expanded="true" />
+            <element signature="e#19018#19019#0" expanded="true" />
+            <element signature="class#KeyHandler#0;class#GameState#0" expanded="false" />
+            <element signature="class#MouseHandler#0;class#GameState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Attacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="89" column="55" lean-forward="false" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+          <folding>
+            <element signature="method#Bullet#0;class#Bullet#0" expanded="false" />
+            <element signature="method#firstDraw#0;class#Bullet#0" expanded="false" />
+            <element signature="method#secondDraw#0;class#Bullet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CanonFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="method#CanonFood#0;class#CanonFood#0" expanded="false" />
+            <element signature="method#draw#0;class#CanonFood#0" expanded="false" />
+            <element signature="method#eated#0;class#CanonFood#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnemyTanks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="165" column="42" lean-forward="true" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
+          <folding>
+            <element signature="method#EnemyTanks#0;class#EnemyTanks#0" expanded="false" />
+            <element signature="method#draw#0;class#EnemyTanks#0" expanded="false" />
+            <element signature="method#check#0;class#EnemyTanks#0" expanded="false" />
+            <element signature="method#attack#0;class#EnemyTanks#0" expanded="false" />
+            <element signature="method#attacked#0;class#EnemyTanks#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Floor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="method#Floor#0;class#Floor#0" expanded="false" />
+            <element signature="method#draw#0;class#Floor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mashinFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="method#bang#0;class#Mine#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwnTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+          <folding>
+            <element signature="method#OwnTank#0;class#OwnTank#0" expanded="false" />
+            <element signature="method#reciveAidKit#0;class#OwnTank#0" expanded="false" />
+            <element signature="method#updateGun#0;class#OwnTank#0" expanded="false" />
+            <element signature="method#attacked#0;class#OwnTank#0" expanded="false" />
+            <marker date="1531620991228" expanded="true" signature="3254:3294" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RedButtun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RepairFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SoftWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1049">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3044">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="79" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Upgrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Turret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
